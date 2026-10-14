@@ -1,0 +1,7 @@
+services:
+  lr-predict-api:
+    image: zaryannabeel/lr-predict-api:v1
+    container_name: lr-predict-api
+    ports:
+      - "5000:5000"
+    restart: unless-stopped
